@@ -1,5 +1,5 @@
-##Projet du cours
-#Lire les différentes bases des données
+##Cours project
+#Read the datasets
 ?file
 setwd("C:\\Users\\maya\\Desktop\\Data scientist 1_files\\clear_data\\course_project\\UCI HAR Dataset")
 #Get the Test set
@@ -7,7 +7,7 @@ X_test<-read.table(".\\test\\X_test.txt", header=FALSE,stringsAsFactors=FALSE)
 head(X_test)
 nrow(X_test)
 ncol(X_test)
-#get subjects
+#get subjects of the Test set
 subject_test<-read.table(".\\test\\subject_test.txt", header=FALSE,stringsAsFactors=FALSE)
 nrow(subject_test)
 x_test<-cbind(X_test,subject_test)

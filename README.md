@@ -5,6 +5,10 @@ Code for performing analysis of the course project
 
 ##CODEBOOK
 
+For the tidy data set, I have create a new variable called mean_(added at the beginning of the original name).
+A description of the variables :
+
+
 activity_lab : integer, used to create the categorical variable activity label     
 tBodyAcc_mean_X : mean of the  time domain signals body acceleration obtained by subtracting the gravity from the total acceleration  of a signal in the  X direction
 tBodyAcc_mean_Y : mean of the  time domain signals body acceleration obtained by subtracting the gravity from the total acceleration  of a signal in the  Y direction
